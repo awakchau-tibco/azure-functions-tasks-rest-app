@@ -1,5 +1,11 @@
 # Azure FUnctions: Sample Rest App
 
+## Prerequisites:
+- An Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?ref=microsoft.com&utm_source=microsoft.com&utm_medium=docs&utm_campaign=visualstudio)
+- Install [Visual Studio Code](https://code.visualstudio.com/)
+- Install [Azure Functions extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions) for Visual Studio Code
+- Install [Azure Functions Core Tools](https://docs.microsoft.com/en-in/azure/azure-functions/functions-run-local#v2) version 3.x. Use the `func --version` command to check that it is correctly installed
+
 ## App Endpoints Exposed:
 | Method | Endpoint    | Description                   |
 |:-------|:------------|:------------------------------|
