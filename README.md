@@ -39,7 +39,7 @@
     ```
     #!/usr/bin/env sh
     echo "Starting function..."
-    FLOGO_APP_PROPS_OVERRIDE="FUNCTIONS_CUSTOMHANDLER_PORT=${FUNCTIONS_CUSTOMHANDLER_PORT}" ./TasksRestServer-linux_amd64
+    PORT=${FUNCTIONS_CUSTOMHANDLER_PORT} ./TasksRestServer-linux_amd64
     ```
 
     ```
